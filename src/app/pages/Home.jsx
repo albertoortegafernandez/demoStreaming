@@ -5,8 +5,8 @@ import { Box, Typography, Card, CardContent, CardMedia } from "@mui/material";
 import placeholder from "../assets/placeholder.png"
 import { Link } from 'react-router-dom'
 
-export const Home = () => {
 
+export const Home = () => {
 
   return (
     <>
@@ -15,7 +15,6 @@ export const Home = () => {
         sx={{
           flexGrow: 1,
           width: "100%",
-          height: "5vw",
           backgroundColor: "black",
         }}
       >
